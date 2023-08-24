@@ -2084,7 +2084,7 @@ function DiscordLib:Window(text)
 			
 			ChannelBtn.MouseEnter:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(48, 12, 129)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 					ChannelBtnTitle.TextColor3 = Color3.fromRGB(220,221,222)
 				end
 			end)
@@ -2312,7 +2312,7 @@ function DiscordLib:Window(text)
 
 				Slider.Name = "Slider"
 				Slider.Parent = ChannelHolder
-				Slider.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+				Slider.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
 				Slider.BorderSizePixel = 0
 				Slider.Position = UDim2.new(0, 0, 0.216560602, 0)
 				Slider.Size = UDim2.new(0, 401, 0, 38)
@@ -2337,7 +2337,7 @@ function DiscordLib:Window(text)
 				SliderFrame.Name = "SliderFrame"
 				SliderFrame.Parent = Slider
 				SliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				SliderFrame.BackgroundColor3 = Color3.fromRGB(31, 30, 30)
+				SliderFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 28)
 				SliderFrame.Position = UDim2.new(0.497999996, 0, 0.757000029, 0)
 				SliderFrame.Size = UDim2.new(0, 385, 0, 8)
 
