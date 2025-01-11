@@ -470,7 +470,7 @@ function DiscordLib:Window(text)
 
 		ServerFrame.Name = "ServerFrame"
 		ServerFrame.Parent = ServersHolder
-		ServerFrame.BackgroundColor3 = Color3.fromRGB(100, 50, 50)
+		ServerFrame.BackgroundColor3 = Color3.fromRGB(150, 50, 50)
 		ServerFrame.BorderSizePixel = 0
 		ServerFrame.ClipsDescendants = true
 		ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0)
