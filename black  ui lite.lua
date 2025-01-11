@@ -325,7 +325,7 @@ function DiscordLib:Window(text)
 
 		UnderBarFrame.Name = "UnderBarFrame"
 		UnderBarFrame.Parent = UnderBar
-		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 100)
+		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		UnderBarFrame.BorderSizePixel = 0
 		UnderBarFrame.Position = UDim2.new(-0.000297061284, 0, -3.76068449, 0)
 		UnderBarFrame.Size = UDim2.new(0, 346, 0, 40)
@@ -415,7 +415,7 @@ function DiscordLib:Window(text)
 
 		Server.Name = text .. "Server"
 		Server.Parent = ServersHold
-		Server.BackgroundColor3 = Color3.fromRGB(51, 50, 150)
+		Server.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
 		Server.Size = UDim2.new(0, 47, 0, 47)
 		Server.AutoButtonColor = false
@@ -470,7 +470,7 @@ function DiscordLib:Window(text)
 
 		ServerFrame.Name = "ServerFrame"
 		ServerFrame.Parent = ServersHolder
-		ServerFrame.BackgroundColor3 = Color3.fromRGB(150, 50, 50)
+		ServerFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		ServerFrame.BorderSizePixel = 0
 		ServerFrame.ClipsDescendants = true
 		ServerFrame.Position = UDim2.new(0.105726875, 0, 1.01262593, 0)
@@ -479,21 +479,21 @@ function DiscordLib:Window(text)
 
 		ServerFrame1.Name = "ServerFrame1"
 		ServerFrame1.Parent = ServerFrame
-		ServerFrame1.BackgroundColor3 = Color3.fromRGB(51, 100, 50)
+		ServerFrame1.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		ServerFrame1.BorderSizePixel = 0
 		ServerFrame1.Position = UDim2.new(0, 0, 0.972290039, 0)
 		ServerFrame1.Size = UDim2.new(0, 12, 0, 10)
 
 		ServerFrame2.Name = "ServerFrame2"
 		ServerFrame2.Parent = ServerFrame
-		ServerFrame2.BackgroundColor3 = Color3.fromRGB(51, 50, 10)
+		ServerFrame2.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		ServerFrame2.BorderSizePixel = 0
 		ServerFrame2.Position = UDim2.new(0.980295539, 0, 0.972290039, 0)
 		ServerFrame2.Size = UDim2.new(0, 12, 0, 9)
 
 		ServerTitleFrame.Name = "ServerTitleFrame"
 		ServerTitleFrame.Parent = ServerFrame
-		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(11, 50, 10)
+		ServerTitleFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		ServerTitleFrame.BackgroundTransparency = 1.000
 		ServerTitleFrame.BorderSizePixel = 0
 		ServerTitleFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
@@ -514,7 +514,7 @@ function DiscordLib:Window(text)
 
 		GlowFrame.Name = "GlowFrame"
 		GlowFrame.Parent = ServerFrame
-		GlowFrame.BackgroundColor3 = Color3.fromRGB(51, 90, 50)
+		GlowFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		GlowFrame.BackgroundTransparency = 1.000
 		GlowFrame.BorderSizePixel = 0
 		GlowFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
@@ -535,7 +535,7 @@ function DiscordLib:Window(text)
 
 		ServerContentFrame.Name = "ServerContentFrame"
 		ServerContentFrame.Parent = ServerFrame
-		ServerContentFrame.BackgroundColor3 = Color3.fromRGB(91, 50, 50)
+		ServerContentFrame.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 		ServerContentFrame.BackgroundTransparency = 1.000
 		ServerContentFrame.BorderSizePixel = 0
 		ServerContentFrame.Position = UDim2.new(-0.0010054264, 0, 0.106338218, 0)
@@ -606,7 +606,7 @@ function DiscordLib:Window(text)
 		ServerChannelHolder.BorderSizePixel = 0
 		ServerChannelHolder.Position = UDim2.new(0.00535549596, 0, 0.0241984241, 0)
 		ServerChannelHolder.Selectable = false
-		ServerChannelHolder.Size = UDim2.new(0, 179, 0, 278)
+		ServerChannelHolder.Size = UDim2.new(0, 179, 0, 320)
 		ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
 		ServerChannelHolder.ScrollBarThickness = 4
 		ServerChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(14, 1, 36)
@@ -659,7 +659,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(51, 50, 90)}
+						{BackgroundColor3 = Color3.fromRGB(51, 50, 50)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -691,7 +691,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							v,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(51, 10, 50)}
+							{BackgroundColor3 = Color3.fromRGB(51, 50, 50)}
 						):Play()
 						TweenService:Create(
 							Server,
@@ -765,7 +765,7 @@ function DiscordLib:Window(text)
 
 			ChannelBtn.Name = text .. "ChannelBtn"
 			ChannelBtn.Parent = ServerChannelHolder
-			ChannelBtn.BackgroundColor3 = Color3.fromRGB(51, 90, 50)
+			ChannelBtn.BackgroundColor3 = Color3.fromRGB(51, 50, 50)
 			ChannelBtn.BorderSizePixel = 0
 			ChannelBtn.Position = UDim2.new(0.24118948, 0, 0.578947365, 0)
 			ChannelBtn.Size = UDim2.new(0, 160, 0, 30)
