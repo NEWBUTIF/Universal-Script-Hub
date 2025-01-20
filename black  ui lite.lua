@@ -202,11 +202,16 @@ function DiscordLib:Window(text)
 	ServersHoldPadding.Parent = ServersHold
 
     CloseBtn.MouseButton1Click:Connect(
-		function()
-			MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-			SYPHIXGUI:Destroy()
-		end
-	)
+    function()
+        MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+        
+        -- Делаем проверку только один раз
+        local SYPHIX = game.CoreGui:FindFirstChild("SYPHIXGUI")
+        if SYPHIX then
+            SYPHIX:Destroy()  -- Удаляем объект, если найден
+        end
+    end
+    )
 
 	CloseBtn.MouseEnter:Connect(
 		function()
