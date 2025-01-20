@@ -5,10 +5,6 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
-local pfp
-local user
-local tag
-local userinfo = {}
 
 local function MakeDraggable(topbarobject, object)
 	local Dragging = nil
@@ -110,7 +106,7 @@ function DiscordLib:Window(text)
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
 	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	TopFrameHolder.BackgroundTransparency = 1.000
+	TopFrameHolder.BackgroundTransparency = 0.500
 	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
@@ -177,7 +173,7 @@ function DiscordLib:Window(text)
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
 	ServersHoldFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	ServersHoldFrame.BackgroundTransparency = 1.000
+	ServersHoldFrame.BackgroundTransparency = 0.700
 	ServersHoldFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	ServersHoldFrame.Size = UDim2.new(0, 71, 0, 396)
 
@@ -185,7 +181,7 @@ function DiscordLib:Window(text)
 	ServersHold.Parent = ServersHoldFrame
 	ServersHold.Active = true
 	ServersHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	ServersHold.BackgroundTransparency = 1.000
+	ServersHold.BackgroundTransparency = 0.800
 	ServersHold.BorderSizePixel = 0
 	ServersHold.Position = UDim2.new(-0.000359333731, 0, 0.0580808073, 0)
 	ServersHold.Size = UDim2.new(0, 71, 0, 373)
