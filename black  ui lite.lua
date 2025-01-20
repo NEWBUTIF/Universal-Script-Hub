@@ -98,7 +98,7 @@ function DiscordLib:Window(text)
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame
 	TopFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	TopFrame.BackgroundTransparency = 0.500
+	TopFrame.BackgroundTransparency = 1
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrame.Size = UDim2.new(0, 681, 0, 22)
@@ -106,7 +106,7 @@ function DiscordLib:Window(text)
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
 	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	TopFrameHolder.BackgroundTransparency = 0.500
+	TopFrameHolder.BackgroundTransparency = 1
 	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
@@ -173,7 +173,7 @@ function DiscordLib:Window(text)
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
 	ServersHoldFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	ServersHoldFrame.BackgroundTransparency = 0.700
+	ServersHoldFrame.BackgroundTransparency = 1
 	ServersHoldFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	ServersHoldFrame.Size = UDim2.new(0, 71, 0, 396)
 
@@ -181,7 +181,7 @@ function DiscordLib:Window(text)
 	ServersHold.Parent = ServersHoldFrame
 	ServersHold.Active = true
 	ServersHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	ServersHold.BackgroundTransparency = 0.800
+	ServersHold.BackgroundTransparency = 1
 	ServersHold.BorderSizePixel = 0
 	ServersHold.Position = UDim2.new(-0.000359333731, 0, 0.0580808073, 0)
 	ServersHold.Size = UDim2.new(0, 71, 0, 373)
