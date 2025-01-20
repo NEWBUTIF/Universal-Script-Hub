@@ -201,11 +201,12 @@ function DiscordLib:Window(text)
 	ServersHoldPadding.Name = "ServersHoldPadding"
 	ServersHoldPadding.Parent = ServersHold
 
-	CloseBtn.MouseButton1Click:Connect(function()
-        SYPHIXGUI:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true, function()
-            SYPHIXGUI:Destroy()
-        end)
-    end)
+    CloseBtn.MouseButton1Click:Connect(
+		function()
+			MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+			SYPHIXGUI:Destroy()
+		end
+	)
 
 	CloseBtn.MouseEnter:Connect(
 		function()
